@@ -17,12 +17,31 @@ header {
   margin-bottom: 30px;
 }
 
+.profile-frame {
+  width: 140px; /* Un poco más grande para el borde */
+  height: 140px;
+  border-radius: 50%;
+  
+  /* Gradiente: Morado (start), Cian (mid), Naranja (end, 'un poco') */
+  background: linear-gradient(135deg, #8A2BE2 0%, #00FFFF 60%, #FFA500 100%);
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  /* Grosor del "borde" visible (espacio entre el marco y la foto) */
+  padding: 5px; 
+  margin: 0 auto; /* Centrar horizontalmente */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15); /* Sombra suave opcional */
+}
+
 .profile-img {
-  width: 130px;
-  height: 130px;
+  width: 100%; /* Ocupa todo el interior del marco */
+  height: 100%;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #333;
+  border: none; /* Eliminamos el borde sólido anterior */
+  display: block; /* Asegura un ajuste correcto */
 }
 
 h1 {
