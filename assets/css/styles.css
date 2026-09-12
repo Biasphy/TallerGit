@@ -1,0 +1,49 @@
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  max-width: 650px;
+  margin: 40px auto;
+  padding: 0 20px;
+  color: #222;
+  line-height: 1.6;
+  background-image: url('../img/bk.jpg'); 
+  background-size: cover;                    
+  background-position: center;              /* Centra la imagen */
+  background-repeat: no-repeat;             /* Evita que se repita en mosaico */
+  background-attachment: fixed;   /* Mantiene la imagen fija */
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profile-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #333;
+}
+
+h1 {
+  margin: 10px 0 5px 0;
+}
+
+.subtitle {
+  color: #666;
+  margin-top: 0;
+}
+
+section {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #777;
+}
