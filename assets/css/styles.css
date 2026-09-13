@@ -5,7 +5,9 @@ body {
   padding: 0 20px;
   color: #222;
   line-height: 1.6;
-  background-image: url('../img/bk.jpg'); 
+  background-image: 
+    linear-gradient(rgba(35, 150, 133, 0.5), rgba(93, 24, 132, 0.5)), 
+    url('../img/bk.jpg'); /* Gradiente de color sobre el fondo */
   background-size: cover;                    
   background-position: center;              /* Centra la imagen */
   background-repeat: no-repeat;             /* Evita que se repita en mosaico */
