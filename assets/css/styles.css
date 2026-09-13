@@ -22,7 +22,7 @@ header h1 {
   text-decoration-color: #e58e00; /* Color del subrayado */
   margin: 15px 0 8px 0;
 
-  background: linear-gradient(135deg, #5409cc6b 20%, #000000a9 100%);
+   background: linear-gradient(135deg, #5409cc6b 20%, #7b105ba9 100%);
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(192, 62, 144, 0.733);
 }
@@ -30,7 +30,7 @@ header h1 {
 /* Subtítulo */
 header .subtitle {
   text-align: center;
-  background: linear-gradient(135deg, #5409cc6b 20%, #000000a9 100%);
+  background: linear-gradient(135deg, #5409cc6b 20%, #7b105ba9 100%);
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(192, 62, 144, 0.733);
   color: #f3a83b;
@@ -76,14 +76,17 @@ h1 {
 
 section {
   background: rgb(255, 255, 255);
+  color: #fdfdfd;
   padding: 20px;
   border-radius: 8px;
   margin-bottom: 20px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  background: linear-gradient(135deg, #6bbcc06b 20%, #8010a2a9 100%);
+  box-shadow: 0 4px 10px rgba(192, 62, 144, 0.733);
 }
 
 footer {
   text-align: center;
   font-size: 0.9em;
-  color: #777;
+  color: #f3a83b;
+
 }
