@@ -14,9 +14,28 @@ body {
   background-attachment: fixed;   /* Mantiene la imagen fija */
 }
 
-header {
+header h1 {
   text-align: center;
-  margin-bottom: 30px;
+  color: #e58d00;
+  text-decoration: underline; /* Subrayado */
+  text-underline-offset: 6px; /* Separación del subrayado */
+  text-decoration-color: #e58e00; /* Color del subrayado */
+  margin: 15px 0 8px 0;
+
+  background: linear-gradient(135deg, #5409cc6b 20%, #000000a9 100%);
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(192, 62, 144, 0.733);
+}
+
+/* Subtítulo */
+header .subtitle {
+  text-align: center;
+  background: linear-gradient(135deg, #5409cc6b 20%, #000000a9 100%);
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(192, 62, 144, 0.733);
+  color: #f3a83b;
+  margin-top: 0;
+  font-weight: 500;
 }
 
 .profile-frame {
@@ -34,7 +53,7 @@ header {
   /* Grosor del "borde" visible (espacio entre el marco y la foto) */
   padding: 5px; 
   margin: 0 auto; /* Centrar horizontalmente */
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15); /* Sombra suave opcional */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.574);
 }
 
 .profile-img {
@@ -56,7 +75,7 @@ h1 {
 }
 
 section {
-  background: white;
+  background: rgb(255, 255, 255);
   padding: 20px;
   border-radius: 8px;
   margin-bottom: 20px;
